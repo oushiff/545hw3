@@ -4,7 +4,7 @@ X = input(:, 2);
 U = input(:, 3);
 len = length(X);
 
-p = 1;
+p = 0.01;
 a = 0.5;
 b = 3.5;
 q = 0.01;
