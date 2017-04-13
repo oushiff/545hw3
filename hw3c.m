@@ -27,6 +27,7 @@ while i <= len
     x_tilde = a * x_hat + b * U(i);
     i = i + 1;
 end
+delay = finddelay(X, X_Hat)
 figure
 plot([X_Hat X])
 figure
