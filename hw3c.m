@@ -27,9 +27,9 @@ while i <= len
     x_tilde = a * x_hat + b * U(i);
     i = i + 1;
 end
-delay = finddelay(X, X_Hat)
+delay = finddelay(X, X_Hat) * 0.01
 figure
-plot([X_Hat X])
+plot(0.01:0.01:10,[X X_Hat])
 figure
-plot([K P])
+plot(0.01:0.01:10,[K P])
 

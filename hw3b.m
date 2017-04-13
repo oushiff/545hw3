@@ -5,7 +5,7 @@ X = input(:, 2);
 YY = filter(B, A, Y);
 time=0.01:0.01:10;
 res = [X YY];
-delay = finddelay(X, YY)
+delay = finddelay(X, YY) * 0.01
 figure
-plot(res)
+plot(0.01:0.01:10, res)
 
